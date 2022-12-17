@@ -1,0 +1,47 @@
+body {
+  background: url(images/fon1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  
+  p,
+  h3,
+  ul,
+  ol {
+    font-family: 'Roboto', sans-serif;
+    width: 900px;
+    display: block;
+    margin-left: left;
+  }
+  
+  h1 {
+    font-family: 'Majestic X', sans-serif;
+    color: rgb(38, 93, 5);
+    text-align: left;
+  }
+  
+  h3 {
+    color: green;
+  }
+  
+  h3.title {
+    color: rgb(4, 63, 13);
+    text-align: left;
+  }
+  
+  img {
+    display: block;
+    margin-left: left;
+  }
+  @font-face {
+    font-family: 'Majestic X';
+    src: url('fonts/majestic_x.eot'); /* IE 9 Compatibility Mode */
+    src: url('fonts/majestic_x.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+      url('fonts/majestic_x.woff2') format('woff2'), /* Super Modern Browsers */
+      url('fonts/majestic_x.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+      url('fonts/majestic_x.ttf') format('truetype'), /* Safari, Android, iOS */
+      url('fonts/majestic_x.svg#majestic_x') format('svg'); /* Chrome < 4, Legacy iOS */
+  }
+
